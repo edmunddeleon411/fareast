@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+   <title>Far East Financials Services</title>
+   <link href="fareast_base.css" rel="stylesheet" />
+   <link href="fareast_layout.css" rel="stylesheet" />
+<header>
+<nav>
+		   <ul>
+		      <li><a href="fareast_index.html" alt="home">home</a></li>
+			  <li><a href="fareast_services.html" alt="services">services</a></li>
+			  <li><a href="fareast_contactus.html" alt="contact us">contact us</a></li>
+		   </ul>  
+		 </nav>
+</header>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+   body {
+       font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	*{
+	box-sizing: border-box;
+	}
+	/*Style inputs */
+	input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px
+	border: 1px solid #ccc;
+	margin-top: 6px
+	margin-bottom: 16px;
+	resize: vertical;
+	}
+	input[type=submit] {
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	border:none;
+	cursor: pointer;
+	}
+	
+	input[type=submit]:hover {
+	background-color:#45a049;
+	}
+	
+	.container{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	
+	
+	.column{
+	float:left;
+	width:50%;
+	margin-top:6px;
+	padding: 20px;
+	}
+	
+	.row:after{
+	content:"";
+	display:table;
+	clear:both:
+	}
+	
+	@media screen and (max-width:600px){
+	.column, input[type=submit] {
+	width:100%;
+	margin-top:0;
+	}
+}
+
+
+</style>
+</head>
+<body>	
+
+	
+   <h1> Far East Financials</h1>
+   <p><h2> We'd love to hear from you!</h2></p>
+   
+   <div class="container">
+   <div style="text-align:center">
+   <h2> Contact Us</h2>
+   <p><strong> Swing by for a cup of coffee or drop us a line or two...</p>
+   <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.1611157100364!2d-116.99975088546864!3d32.62133822674409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94f70c86b7017%3A0x3a2b18327a5814d1!2s1385%20Fieldbrook%20St%2C%20Chula%20Vista%2C%20CA%2091913!5e0!3m2!1sen!2sus!4v1583608419295!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+   </div>
+   <div class="row">
+   <div class="column">
+   <img src="financialexit.gif" class="center" />
+   
+   </div>
+   <div class="column">
+   <form action="/action_page.php">
+   <label for="fname">First Name</label>
+   <input type="text" id="fname" name="firstname"
+ placeholder="Your name..">
+    <label for="lname">Last Name</label>
+	<input type="text" id="lname" name="lastname"
+placeholder="Your last name..">
+    <label for="city">City</label>
+	<select id="city" name="city">
+	    <option value="chulavista">Chula Vista</option>
+		<option value="sandiego">San Diego</option>
+		</select>
+		<label for="subject">Subject</label>
+		<textarea id="subject" name="subject"
+placeholder="Write something.."
+style="height:170px"></textarea>
+        <input type="submit"  value="Submit">
+		</form>
+		</div>
+		</div>
+		
+		</body>
+		</html>
+   
+   
+
+<
